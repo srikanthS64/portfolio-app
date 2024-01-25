@@ -38,27 +38,27 @@ const home = () => {
                 <div className="justify-between items-center flex w-full max-w-[1200px] gap-5 py-12 border-y-2  border-y-opacity-20 border-solid max-md:max-w-full max-md:flex-wrap">
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc341395d4abb34bf4033360dd6eeac8aabaefad890539a3a9c688161af5d560?"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc341395d4abb34bf4033360dd6eeac8aabaefad890539a3a9c688161af5d560?" alt=''
                         className="aspect-[1.59] object-contain object-center w-[40px] fill-zinc-800 overflow-hidden shrink-0 max-w-full my-auto"
                     />
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5896770b7fda8bf8a633254ba5932efe14b251a675683362c186c7eeb57d805f?"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/5896770b7fda8bf8a633254ba5932efe14b251a675683362c186c7eeb57d805f?" alt=''
                         className="aspect-[3.03] object-contain object-center w-[90px] fill-zinc-800 overflow-hidden shrink-0 max-w-full my-auto"
                     />
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/123f5a4a4ac4e155c6bb51f5e110702c9b22009b1538d2998ba68c23b6a3a908?"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/123f5a4a4ac4e155c6bb51f5e110702c9b22009b1538d2998ba68c23b6a3a908?" alt=''
                         className="aspect-[0.81] object-contain object-center w-[30px] fill-zinc-800 overflow-hidden shrink-0 max-w-full my-auto"
                     />
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/71753be02bca07050ec2eeb2d0362598a20789fbf119c6b95bd235564f9de68c?"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/71753be02bca07050ec2eeb2d0362598a20789fbf119c6b95bd235564f9de68c?" alt=''
                         className="aspect-[4.09] object-contain object-center w-[110px] fill-zinc-800 overflow-hidden shrink-0 max-w-full my-auto"
                     />
                     <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a45ba1e013fb3586a5149be9aad276dadd09afa6b055354fde3d4c692712199d?"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a45ba1e013fb3586a5149be9aad276dadd09afa6b055354fde3d4c692712199d?" alt=''
                         className="aspect-[6.29] object-contain object-center w-[150px] fill-zinc-800 overflow-hidden shrink-0 max-w-full my-auto"
                     />
                 </div>
@@ -142,7 +142,7 @@ const home = () => {
                                     <img
                                         loading="lazy"
                                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ffe8f1d072218c2774130389337e91b85e08df6499abaf10f376f11bc5ed097?"
-                                        className="aspect-[6.44] object-contain object-center w-[232px] overflow-hidden max-w-full mt-16 max-md:mt-10"
+                                        className="aspect-[6.44] object-contain object-center w-[232px] overflow-hidden max-w-full mt-16 max-md:mt-10" alt=''
                                     />
                                 </div>
                             </div>

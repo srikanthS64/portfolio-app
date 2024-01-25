@@ -20,7 +20,7 @@ const client = () => {
                             <div className="flex justify-between gap-5 mt-10 items-start max-md:mt-10">
                                 <img
                                     loading="lazy"
-                                    srcSet={author1} alt='author1'
+                                    srcSet={author1} alt=''
                                     className="aspect-square object-contain object-center w-[50px] overflow-hidden shrink-0 max-w-full"
                                 />
                                 <div className="items-stretch self-stretch flex grow basis-[0%] flex-col">
@@ -28,27 +28,27 @@ const client = () => {
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                     </div>
                                     <div className="text-zinc-800 text-lg leading-7 mt-2.5">
@@ -68,7 +68,7 @@ const client = () => {
                             <div className="flex justify-between gap-5 mt-10 items-start max-md:mt-10">
                                 <img
                                     loading="lazy"
-                                    srcSet={author2} alt='author2'
+                                    srcSet={author2} alt=''
                                     className="aspect-square object-contain object-center w-[50px] overflow-hidden shrink-0 max-w-full"
                                 />
                                 <div className="items-stretch self-stretch flex grow basis-[0%] flex-col">
@@ -76,27 +76,27 @@ const client = () => {
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b69732fbef8fbfbe2c06f58e2b4d52b7e161046e94c9b9dba3e7f07c9191384?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b69732fbef8fbfbe2c06f58e2b4d52b7e161046e94c9b9dba3e7f07c9191384?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b69732fbef8fbfbe2c06f58e2b4d52b7e161046e94c9b9dba3e7f07c9191384?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b69732fbef8fbfbe2c06f58e2b4d52b7e161046e94c9b9dba3e7f07c9191384?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b69732fbef8fbfbe2c06f58e2b4d52b7e161046e94c9b9dba3e7f07c9191384?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                     </div>
                                     <div className="text-zinc-800 text-lg leading-7 mt-2.5">
@@ -124,27 +124,27 @@ const client = () => {
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
+                                        /> 
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                         <img
                                             loading="lazy"
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/81449dccb7bb6e798268db0aa66e15f49ba031038a502d80708a603eb7224273?"
-                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
+                                            className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" alt=''
                                         />
                                     </div>
                                     <div className="text-zinc-800 text-lg leading-7 mt-2.5">
