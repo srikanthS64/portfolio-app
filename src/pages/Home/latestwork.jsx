@@ -24,7 +24,7 @@ const latestwork = () => {
                             <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 Free Bird
                             </div>
-                            <div className="text-zinc-800 text-base leading-5 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base font-medium leading-5 whitespace-nowrap mt-2.5">
                                 Lynyrd Skynyrd
                             </div>
                         </div>
@@ -36,10 +36,10 @@ const latestwork = () => {
                                 srcSet={banner2} alt='banner2'
                                 className="aspect-square object-contain object-center w-full overflow-hidden"
                             />
-                            <div className="text-zinc-800 text-xl font-semibold leading-8 whitespace-nowrap mt-6">
+                            <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 Purple Haze
                             </div>
-                            <div className="text-zinc-800 text-base leading-7 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base  font-medium leading-7 whitespace-nowrap mt-2.5">
                                 Jimi Hendrix
                             </div>
                         </div>
@@ -51,10 +51,10 @@ const latestwork = () => {
                                 srcSet={banner3} alt='banner3'
                                 className="aspect-square object-contain object-center w-full overflow-hidden"
                             />
-                            <div className="text-zinc-800 text-xl font-semibold leading-8 whitespace-nowrap mt-6">
+                            <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 You Really Got Me
                             </div>
-                            <div className="text-zinc-800 text-base leading-7 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base font-medium leading-7 whitespace-nowrap mt-2.5">
                                 The Kinks
                             </div>
                         </div>
@@ -70,10 +70,10 @@ const latestwork = () => {
                                 srcSet={banner4} alt='banner4'
                                 className="aspect-square object-contain object-center w-full overflow-hidden"
                             />
-                            <div className="text-zinc-800 text-xl font-semibold leading-8 whitespace-nowrap mt-6">
+                            <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 American Girl
                             </div>
-                            <div className="text-zinc-800 text-base leading-7 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base font-medium leading-7 whitespace-nowrap mt-2.5">
                                 Tom Petty
                             </div>
                         </div>
@@ -85,10 +85,10 @@ const latestwork = () => {
                                 srcSet={banner5} alt='banner5'
                                 className="aspect-square object-contain object-center w-full overflow-hidden"
                             />
-                            <div className="text-zinc-800 text-xl font-semibold leading-8 whitespace-nowrap mt-6">
+                            <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 Whole Lotta Love
                             </div>
-                            <div className="text-zinc-800 text-base leading-7 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base font-medium leading-7 whitespace-nowrap mt-2.5">
                                 Led Zeppelin
                             </div>
                         </div>
@@ -100,10 +100,10 @@ const latestwork = () => {
                                 srcSet={banner6} alt='banner6'
                                 className="aspect-square object-contain object-center w-full overflow-hidden"
                             />
-                            <div className="text-zinc-800 text-xl font-semibold leading-8 whitespace-nowrap mt-6">
+                            <div className="text-zinc-800 text-xl font-bold leading-8 whitespace-nowrap mt-6">
                                 Under Pressure{" "}
                             </div>
-                            <div className="text-zinc-800 text-base leading-7 whitespace-nowrap mt-2.5">
+                            <div className="text-zinc-800 text-base font-medium leading-7 whitespace-nowrap mt-2.5">
                                 Queen
                             </div>
                         </div>

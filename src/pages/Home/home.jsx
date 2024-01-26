@@ -20,7 +20,7 @@ const home = () => {
                     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                         <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
                             <div className="items-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10 max-sm:items-center">
-                                <h3 className="text-zinc-800 text-lg font-semibold leading-8 max-md:max-w-full">
+                                <h3 className="text-zinc-800 text-xl font-semibold leading-8 max-md:max-w-full">
                                     Branding | Image making{" "}
                                 </h3>
                                 <h1 className="text-zinc-800 text-5xl font-bold leading-[70px] mt-5 max-md:max-w-full max-md:text-4xl max-md:leading-[50px] max-sm:text-center">
@@ -34,7 +34,7 @@ const home = () => {
                                         }}
                                     />
                                 </h1>
-                                <p className="text-zinc-800 leading-7 mt-10 max-md:max-w-full">
+                                <p className="text-zinc-800 font-medium leading-7 mt-10 max-md:max-w-full">
                                     And I made it myself! Yes. In Figma with Anima
                                 </p>
                             </div>
@@ -91,7 +91,7 @@ const home = () => {
                                 <div className="text-zinc-800 text-center text-3xl font-semibold leading-10 self-stretch whitespace-nowrap mt-14 max-md:mt-10">
                                     Product design
                                 </div>
-                                <div className="text-zinc-800 text-center text-lg leading-7 self-stretch mt-5">
+                                <div className="text-zinc-800 text-center text-md leading-7 self-stretch mt-5">
                                     This is a template Figma file, turned into code using Anima.
                                     Learn more at AnimaApp.com
                                 </div>
@@ -107,7 +107,7 @@ const home = () => {
                                 <div className="text-zinc-800 text-center text-3xl font-semibold leading-10 self-stretch whitespace-nowrap mt-14 max-md:mt-10">
                                     Art direction
                                 </div>
-                                <div className="text-zinc-800 text-center text-lg leading-7 self-stretch mt-5">
+                                <div className="text-zinc-800 text-center text-md leading-7 self-stretch mt-5">
                                     This is a template Figma file, turned into code using Anima.
                                     Learn more at AnimaApp.com
                                 </div>
@@ -123,7 +123,7 @@ const home = () => {
                                 <div className="text-zinc-800 text-center text-3xl font-semibold leading-10 self-stretch whitespace-nowrap mt-14 max-md:mt-10">
                                     Visual design
                                 </div>
-                                <div className="text-zinc-800 text-center text-lg leading-7 self-stretch mt-5">
+                                <div className="text-zinc-800 text-center text-md leading-7 self-stretch mt-5">
                                     This is a template Figma file, turned into code using Anima.
                                     Learn more at AnimaApp.com
                                 </div>
