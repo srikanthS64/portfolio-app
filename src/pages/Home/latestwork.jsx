@@ -14,7 +14,7 @@ const latestwork = () => {
             </div>
             <div className="self-stretch mt-16 mx-5 max-md:max-w-full max-md:mr-2.5 max-md:mt-10">
                 <div className="gap-20 flex max-md:flex-col max-md:items-stretch max-md:gap-0 self-center items-center justify-center">
-                    <div className="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0 cursor-pointer">
                         <div className="items-stretch flex grow flex-col max-md:mt-10">
                             <img
                                 loading="lazy"
@@ -30,7 +30,7 @@ const latestwork = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[18%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch flex grow flex-col max-md:mt-10">
+                        <div className="items-stretch flex grow flex-col max-md:mt-10 cursor-pointer">
                             <img
                                 loading="lazy"
                                 srcSet={banner2} alt='banner2'
@@ -45,7 +45,7 @@ const latestwork = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[18%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch flex grow flex-col max-md:mt-10">
+                        <div className="items-stretch flex grow flex-col max-md:mt-10 cursor-pointer">
                             <img
                                 loading="lazy"
                                 srcSet={banner3} alt='banner3'
@@ -64,7 +64,7 @@ const latestwork = () => {
             <div className="self-stretch mt-16 mx-5 max-md:max-w-full max-md:mr-2.5 max-md:mt-10">
                 <div className="gap-20 flex max-md:flex-col max-md:items-stretch max-md:gap-0 self-center items-center justify-center">
                     <div className="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0">
-                        <div className="items-stretch flex grow flex-col max-md:mt-10">
+                        <div className="items-stretch flex grow flex-col max-md:mt-10 cursor-pointer">
                             <img
                                 loading="lazy"
                                 srcSet={banner4} alt='banner4'
@@ -79,7 +79,7 @@ const latestwork = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[18%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch flex grow flex-col max-md:mt-10">
+                        <div className="items-stretch flex grow flex-col max-md:mt-10 cursor-pointer">
                             <img
                                 loading="lazy"
                                 srcSet={banner5} alt='banner5'
@@ -94,7 +94,7 @@ const latestwork = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[18%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch flex grow flex-col max-md:mt-10">
+                        <div className="items-stretch flex grow flex-col max-md:mt-10 cursor-pointer">
                             <img
                                 loading="lazy"
                                 srcSet={banner6} alt='banner6'

@@ -3,8 +3,15 @@ import header from "../../assets/img/header-1.png";
 import img1 from "../../assets/img/img-1.png";
 import img2 from "../../assets/img/img-2.png";
 import img3 from "../../assets/img/img-3.png";
+import Typewriter from "typewriter-effect";
 import Latestwork from "../Home/latestwork";
 import Client from "../Home/client";
+import icons1 from "../../assets/icons/icons-1.svg";
+import icons2 from "../../assets/icons/icons-2.svg";
+import icons3 from "../../assets/icons/icons-3.svg";
+import icons4 from "../../assets/icons/icons-4.svg";
+import icons5 from "../../assets/icons/icons-5.svg";
+
 const home = () => {
     return (
         <div className="items-stretch flex flex-col pb-12">
@@ -17,7 +24,15 @@ const home = () => {
                                     Branding | Image making{" "}
                                 </h3>
                                 <h1 className="text-zinc-800 text-5xl font-bold leading-[70px] mt-5 max-md:max-w-full max-md:text-4xl max-md:leading-[50px] max-sm:text-center">
-                                    My awesome <br/>portfolio
+                                    My awesome <br />
+                                    <Typewriter
+                                        options={{
+                                            autoStart: true,
+                                            loop: true,
+                                            delay: 30,
+                                            strings: ["Portfolio"]
+                                        }}
+                                    />
                                 </h1>
                                 <p className="text-zinc-800 leading-7 mt-10 max-md:max-w-full">
                                     And I made it myself! Yes. In Figma with Anima
@@ -28,7 +43,7 @@ const home = () => {
                             <img
                                 loading="lazy"
                                 srcSet={header} alt='header'
-                                className="aspect-[1.17] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-7"
+                                className="aspect-[1.17] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-7 header-img"
                             />
                         </div>
                     </div>
@@ -124,7 +139,7 @@ const home = () => {
             <div>
                 <Client />
             </div>
-            
+
             <div className="items-center bg-white flex w-full flex-col mb- pb-12 px-16 max-md:max-w-full max-md:mb-10 max-md:px-5">
                 <div className="items-stretch flex w-full max-w-[1200px] flex-col mb-5 pt-12 border-t-2  border-t-opacity-20 border-solid max-md:max-w-full">
                     <div className="mt-5 max-md:max-w-full">
@@ -134,24 +149,40 @@ const home = () => {
                                     <div className="text-zinc-800 text-3xl font-semibold leading-10 self-stretch whitespace-nowrap">
                                         Let’s work together
                                     </div>
-                                    <div className="text-zinc-800 w-[60%] max-sm:w-[90%] text-lg leading-7 self-stretch mt-10">
+                                    <div className="text-zinc-800 w-[60%] max-sm:w-[90%] text-lg leading-7 self-stretch mt-10 mb-8">
                                         This is a template Figma file, turned into code using Anima.
                                         Learn more at AnimaApp.com This is a template Figma file,
                                         turned into code using Anima. Learn more at AnimaApp.com
                                     </div>
-                                    <img
-                                        loading="lazy"
-                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ffe8f1d072218c2774130389337e91b85e08df6499abaf10f376f11bc5ed097?"
-                                        className="aspect-[6.44] object-contain object-center w-[232px] overflow-hidden max-w-full mt-16 max-md:mt-10" alt=''
-                                    />
+                                    <div class="flex sm:justify-center sm:mt-0">
+                                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                            <img src={icons1} alt="" style={{ color: "white" }} />
+                                        </a>
+                                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+
+                                            <img src={icons2} alt="" style={{ color: "white" }} />
+                                        </a>
+                                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+
+                                            <img src={icons3} alt="" style={{ color: "white" }} />
+                                        </a>
+                                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+
+                                            <img src={icons4} alt="" style={{ color: "white" }} />
+                                        </a>
+                                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+
+                                            <img src={icons5} alt="" style={{ color: "white" }} />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div className="flex flex-col items-stretch w-[40%] ml-5 max-md:w-full max-md:ml-0 ">
                                 <div className="items-start flex grow flex-col max-md:max-w-full max-md:mt-10">
-                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Name'/>
-                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Email'/>
-                                        
-                                    <textarea className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Type your message here'/>
+                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Name' />
+                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Email' />
+
+                                    <textarea className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Type your message here' />
                                     <button className="text-white text-center text-xl font-semibold leading-8 whitespace-nowrap items-center bg-zinc-800 w-[170px] max-w-full justify-center mt-10 px-8 py-3 self-start max-md:px-5 rounded-md max-sm:items-center max-sm:self-center">
                                         Submit
                                     </button>
