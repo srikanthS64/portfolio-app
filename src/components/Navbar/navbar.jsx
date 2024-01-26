@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
-import {  XMarkIcon } from '@heroicons/react/24/outline';
+import { XMarkIcon } from '@heroicons/react/24/outline';
 import Menu from "../../assets/icons/Menu.svg";
-
+import profile from "../../assets/img/profile.png"
 
 
 export default function Example() {
@@ -26,7 +26,7 @@ export default function Example() {
                         <img src={Menu} />
                     </button>
                 </div>
-                
+
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-8 ">
                     <a href="#" className="text-xl font-semibold leading-6 text-gray-900">
                         About
@@ -37,6 +37,7 @@ export default function Example() {
                     <a href="#" className="text-xl font-semibold leading-6 text-gray-900">
                         Contact
                     </a>
+                    <img className=' w-8 cursor-pointer' src={profile} alt='profile' />
                 </div>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -44,7 +45,7 @@ export default function Example() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
-                        <h1 className=' font-bold text-xl'>PORTFOLIO</h1>
+                            <h1 className=' font-bold text-xl'>PORTFOLIO</h1>
                         </a>
                         <button
                             type="button"

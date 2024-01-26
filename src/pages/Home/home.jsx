@@ -15,9 +15,9 @@ import icons5 from "../../assets/icons/icons-5.svg";
 const home = () => {
     return (
         <div className="items-stretch flex flex-col pb-12">
-            <div className="justify-center items-center bg-white flex w-full flex-col px-16 py-12 max-md:max-w-full max-md:px-5">
+            <div className="justify-center items-center bg-white flex w-full flex-col px-16 py-12 max-md:max-w-full max-md:px-5 ">
                 <div className="w-full max-w-[1080px] my-12 max-md:max-w-full max-md:my-10">
-                    <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 max-sm:-mt-20">
                         <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
                             <div className="items-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-10 max-sm:items-center">
                                 <h3 className="text-zinc-800 text-xl font-semibold leading-8 max-md:max-w-full">
@@ -50,7 +50,7 @@ const home = () => {
                 </div>
             </div>
             <div className="justify-center items-center bg-white flex w-full flex-col px-16 max-md:max-w-full max-md:px-5">
-                <div className="justify-between items-center flex w-full max-w-[1200px] gap-5 py-12 border-y-2  border-y-opacity-20 border-solid max-md:max-w-full max-md:flex-wrap">
+                <div className="justify-between items-center flex w-full max-w-[1200px] px-9 max-sm:px-0 gap-5 py-12 border-y-2  border-y-opacity-20 border-solid max-md:max-w-full max-md:flex-wrap max-sm:w-48">
                     <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc341395d4abb34bf4033360dd6eeac8aabaefad890539a3a9c688161af5d560?" alt=''
