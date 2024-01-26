@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import header from "../../assets/img/header-1.png";
 import img1 from "../../assets/img/img-1.png";
 import img2 from "../../assets/img/img-2.png";
@@ -12,7 +13,23 @@ import icons3 from "../../assets/icons/icons-3.svg";
 import icons4 from "../../assets/icons/icons-4.svg";
 import icons5 from "../../assets/icons/icons-5.svg";
 
-const home = () => {
+const Home = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_1es6qxp', 'template_fp7qmit', form.current, 'zdYYWToN7xTK9NK1R')
+            .then((result) => {
+                console.log(result.text);
+                console.log("message sent")
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
     return (
         <div className="items-stretch flex flex-col pb-12">
             <div className="justify-center items-center bg-white flex w-full flex-col px-16 py-12 max-md:max-w-full max-md:px-5 ">
@@ -178,15 +195,15 @@ const home = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col items-stretch w-[40%] ml-5 max-md:w-full max-md:ml-0 ">
-                                <div className="items-start flex grow flex-col max-md:max-w-full max-md:mt-10">
-                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Name' />
-                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Email' />
+                                <form className="items-start flex grow flex-col max-md:max-w-full max-md:mt-10" ref={form} onSubmit={sendEmail}>
+                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center px-8 py-5 max-md:max-w-full max-md:px-5" name='user_name' id='name' placeholder='Name' />
+                                    <input className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" name='user_email' id='email' placeholder='Email' />
 
-                                    <textarea className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" placeholder='Type your message here' />
+                                    <textarea className="text-zinc-800 text-lg leading-7 items-stretch bg-zinc-100 self-stretch justify-center mt-5 px-8 py-5 max-md:max-w-full max-md:px-5" id='message' name='message' placeholder='Type your message here' />
                                     <button className="text-white text-center text-xl font-semibold leading-8 whitespace-nowrap items-center bg-zinc-800 w-[170px] max-w-full justify-center mt-10 px-8 py-3 self-start max-md:px-5 rounded-md max-sm:items-center max-sm:self-center">
                                         Submit
                                     </button>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -196,4 +213,4 @@ const home = () => {
     )
 }
 
-export default home
+export default Home

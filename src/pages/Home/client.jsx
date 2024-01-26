@@ -12,7 +12,7 @@ const client = () => {
             <div className=" mt-14 mb-12 mx-5 max-md:max-w-full max-md:mr-2.5 max-md:my-10">
                 <div className="gap-20 flex max-md:flex-col self-centre items-center justify-center max-md:items-stretch max-md:gap-0 ">
                     <div className="flex flex-col items-stretch w-[25%] max-md:w-full max-md:ml-0 cursor-pointer max-sm:w-[90%] max-sm:self-center max-sm:items-center">
-                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5">
+                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5 transition duration-500 hover:scale-105">
                             <div className="text-zinc-800 text-xl font-semibold leading-8">
                                 This is a template Figma file, turned into code using Anima.
                                 Learn more at AnimaApp.com
@@ -60,7 +60,7 @@ const client = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[25%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5 cursor-pointer max-sm:w-[90%] max-sm:self-center max-sm:items-center">
+                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5 cursor-pointer max-sm:w-[90%] max-sm:self-center max-sm:items-center transition duration-500 hover:scale-105">
                             <div className="text-zinc-800 text-xl font-semibold leading-8">
                                 This is a template Figma file, turned into code using Anima.
                                 Learn more at AnimaApp.com
@@ -108,7 +108,7 @@ const client = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch w-[25%] ml-5 max-md:w-full max-md:ml-0">
-                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5 cursor-pointer max-sm:w-[90%] max-sm:self-center max-sm:items-center">
+                        <div className="items-stretch bg-stone-50 flex w-full grow flex-col mx-auto pl-8 pr-6 py-8 border-[1.5px] border-solid border-amber-200 max-md:mt-10 max-md:px-5 cursor-pointer max-sm:w-[90%] max-sm:self-center max-sm:items-center transition duration-500 hover:scale-105">
                             <div className="text-zinc-800 text-xl font-semibold leading-8">
                                 This is a template Figma file, turned into code using Anima.
                                 Learn more at AnimaApp.com
